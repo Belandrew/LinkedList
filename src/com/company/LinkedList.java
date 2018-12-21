@@ -105,12 +105,12 @@ package com.company;
     public class LinkedList {
         public static void main(String[] args) {
             LinkList newNode = new LinkList();
-           /* newNode.add(12);
+            newNode.add(12);
             newNode.add(10);
             newNode.add(45);
             newNode.add(14);
             newNode.add(54);
-            newNode.add(55);*/
+            newNode.add(55);
             System.out.println(newNode.size());
             newNode.delete(45);
             System.out.println(newNode.size());
