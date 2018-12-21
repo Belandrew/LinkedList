@@ -27,14 +27,17 @@ package com.company;
      /* Отримати елемент по індексу, повертає null якщо такий елемент недоступний */
      public Integer get(int index) {
          Node current = head;
+         int i =0;
          while (current != null)
          {
-             if (current.getData() == index)
+             //if (current.getData() == index)
+             if (i == index)
              {
                  return current.getData();
              }
 
              current = current.getNext();
+             i++;
          }
 
          return null;
@@ -44,10 +47,12 @@ package com.company;
      public boolean delete(int index) {
          Node previous = null;
          Node current = head;
+         int i =0;
 
          while (current != null)
          {
-             if (current.getData() == index)
+            // if (current.getData() == index)
+             if(i == index)
              {
                  // Узел в середине или в конце.
                  if (previous != null)
@@ -79,6 +84,7 @@ package com.company;
 
              previous = current;
              current = current.getNext();
+             i++;
          }
 
          return false;
@@ -112,7 +118,7 @@ package com.company;
             newNode.add(54);
             newNode.add(55);
             System.out.println(newNode.size());
-            newNode.delete(45);
+            newNode.delete(5);
             System.out.println(newNode.size());
             System.out.println(newNode.get(55));
           //  newNode.add(45);
@@ -126,8 +132,7 @@ package com.company;
 
             // newList.displayList();
 
-            // Node f = newList.find(10);
-            //System.out.println("Ми знайшли: " +f.Data);
+
         }
 
     }
