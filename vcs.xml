@@ -18,6 +18,10 @@
           <option name="url" value="https://github.com/Belandrew/LinkedList.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Belandrew/carddeck.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Andrew\IdeaProjects" />
