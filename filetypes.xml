@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="java" type="JAVA" />
+      <mapping pattern="text" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
